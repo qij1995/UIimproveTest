@@ -35,7 +35,7 @@ public class GridViewFragment extends Fragment {
 //        super.onStart();
 //        View view =this.(R.id.gridview);
 //    }
-
+//initItem方法的参数未设置，导致onCreateView方法中创建了View对象而无法使用，进而程序一直报错显示空指针
     private void initItems(View view) {
         Item one = new Item("海德威豪华五件套", R.drawable.one);
         itemList.add(one);

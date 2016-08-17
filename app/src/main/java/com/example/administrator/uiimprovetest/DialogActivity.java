@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 import java.io.File;
 import java.io.IOException;
-
+//Activity的主题没有更改，导致一个Activity有两个主题
 public class DialogActivity extends Activity {
 private ImageView photo1,video;
     private Uri imageUri;
