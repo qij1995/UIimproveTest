@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="gray">#EDEDED</color>
     <color name="white">#FFFFFF</color>
+    <!-- 设置透明度为56%(9/16)左右 -->
+    <color name="transparent">#9000</color>
 </resources>
