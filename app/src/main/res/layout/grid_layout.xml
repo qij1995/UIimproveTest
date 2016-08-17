@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <RelativeLayout
+            android:id="@+id/rela"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/add_favor1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerCrop"
+                />
+        </RelativeLayout>
+<LinearLayout
+   android:layout_alignParentLeft="true"
+    android:layout_toLeftOf="@+id/rela"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:id="@+id/text_grid"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLines="2"
+        android:textSize="15sp"
+        android:ellipsize="end"
+
+        />
+</LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
