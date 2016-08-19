@@ -7,4 +7,7 @@
     <color name="white">#FFFFFF</color>
     <!-- 设置透明度为56%(9/16)左右 -->
     <color name="transparent">#9000</color>
+    <color name="red">#CC151E</color>
+    <color name="black">#000000</color>
+    <color name="textcolor">#ACACB2</color>
 </resources>

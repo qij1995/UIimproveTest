@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@color/white">
+
+        <com.marvinlabs.widget.slideshow.SlideShowView
+            android:id="@+id/slideshow"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="海德威豪华五件套装"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text3"
+                android:layout_below="@+id/text3"
+                android:layout_marginBottom="10dp"
+                android:text="￥11216"
+                android:textColor="@color/red"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/text4"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/text4"
+                android:text="￥28758"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/textcolor"></View>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/gray">
+
+    </View>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/textcolor"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="销量：       件"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="9dp"
+        android:background="@color/textcolor">
+
+    </View>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="销量：       件"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="9dp"
+        android:background="@color/textcolor">
+
+    </View>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="销量：       件"/>
+</LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/textcolor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+        </View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+<TextView
+    android:id="@+id/text5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RECOMMENDATION SERIES /"
+    android:textColor="@color/black"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:textSize="11sp"
+    />
+<TextView
+    android:id="@+id/text6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="推荐系列"
+    android:layout_alignBottom="@+id/text5"
+    android:layout_toRightOf="@+id/text5"
+    android:textSize="8sp"
+    />
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/textcolor"
+                android:layout_below="@+id/text5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="90dp"
+                >
+            </View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LANTIN RECOMMENDATION SERIES"
+                android:layout_below="@+id/view"
+                android:textSize="6sp"
+                android:layout_toRightOf="@+id/text6"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
