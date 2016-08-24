@@ -29,4 +29,5 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         itemText.setText(item.getText());
         return view;
     }
+
 }
